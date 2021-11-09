@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := esp32-air-sensor
+PROJECT_NAME := esp32-wif-router-nurse
 
 COMPONENT_ADD_INCLUDEDIRS := components/include
 
