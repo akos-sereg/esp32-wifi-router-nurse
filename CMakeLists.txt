@@ -3,5 +3,6 @@
 cmake_minimum_required(VERSION 3.5)
 set(EXTRA_COMPONENT_DIRS c:/projects/esp32/esp-idf-lib/esp-idf-lib/components)
 set(EXTRA_COMPONENT_DIRS c:/projects/esp32/esp32-wifi-router-nurse)
+set(EXTRA_COMPONENT_DIRS c:/projects/esp32/esp32-wifi-router-nurse/components)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(esp32-obd2-v2)

@@ -9,3 +9,18 @@ Components:
 
 ![Nurse](https://raw.githubusercontent.com/akos-sereg/esp32-wifi-router-nurse/master/docs/wifi-nurse.png)
 
+## Circuit
+
+```
+   ESP32
+ __________          +3.3V
+|          |           |
+|          |      [ 3V relay ]
+|          |           |
+|          |           | (c)
+| GPIO 16  |----(b)[ BC 182 ]
+|__________|           | (e)
+                      GND
+
+```
+    
